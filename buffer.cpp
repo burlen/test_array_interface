@@ -66,7 +66,7 @@ void delete_array_interface(PyObject *cap)
     free(nai->shape);
     free(nai);
 
-    std::cerr << "delete_array_interface" << std::endl
+    std::cerr << "delete_array_interface <---------------- here!" << std::endl
         << "cap = " << cap << " nai = "  << nai << " ptr = " << (size_t)ptr
         << std::endl;
 }

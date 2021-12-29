@@ -36,6 +36,8 @@ def test(buf_kind):
     stderr.write('\n\n\n\n')
 
 
+
 #test('CPU')
+
 test('CUDA')
 
